@@ -23,6 +23,12 @@ if (condition) {
   // code to be executed if condition is true
 }
 */
+$age = 20;
+
+if($age >= 18){
+  echo "You can vote";
+}
+
 
 /* -------- Ternary Operator -------- */
 /*
@@ -30,6 +36,22 @@ if (condition) {
   Ternary Syntax:
     condition ? true : false;
 */
+$post = ['first post', 'second post'];
+
+echo !empty($post) ? $post[0] : 'No Posts';
 
 
 /* -------- Switch Statements ------- */
+
+$color = "blue";
+
+switch($color){
+  case 'red':
+    echo "yaaaaay";
+    break;
+  case 'blue':
+    echo "Nooooo";
+    break;
+  default:
+  echo 'Your are not red';    
+}
