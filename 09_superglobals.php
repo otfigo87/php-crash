@@ -16,3 +16,5 @@
   $_REQUEST - Contains information about variables passed through the form or URL.
 */
 
+var_dump($_SERVER["DOCUMENT_ROOT"]);
+var_dump($_SERVER);
