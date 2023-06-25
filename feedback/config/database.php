@@ -1,7 +1,7 @@
 <?php
 
 define('DB_HOST', 'localhost');
-define('DB_USER', 'Otmane');
+define('DB_USER', 'otmane');
 define('DB_PASS', '1234');
 define('DB_NAME', 'php_dev');
 
@@ -13,4 +13,4 @@ if($conn->connect_error){
     die('Connection Failed' . $conn->connect_error);
 }
 
-echo 'CONNECTED!';
+// echo 'CONNECTED!';
